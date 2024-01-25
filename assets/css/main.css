@@ -2101,6 +2101,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 3px;
 			display: block;
+			margin: auto;
 		}
 
 		.image.static {
@@ -2690,6 +2691,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		min-height: 20em;
 	}
 
 		.spotlight .image {
@@ -4018,4 +4020,8 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+	.nav {
+		display: flex;
+        justify-content: space-between;
 	}
